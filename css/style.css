@@ -67,14 +67,18 @@ body {
 .top {
     background: #F1E4E6;
     margin: 0 0 65px 0;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    display: flex;
+    gap: 63px;
 }
 
 .top-image {
-    background-image: url(../img/preview.png);
-    width: 800.58px;
-    height: 764px;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.top-image img {
+    max-width: 100%;
 }
 
 .top-title {
