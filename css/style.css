@@ -140,6 +140,7 @@ margin: 0 auto 96px auto;
     height: 260px;
     box-sizing: border-box;
     background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,8 +334,265 @@ margin: 0 auto 96px auto;
     align-items: center;
     flex-wrap: wrap;
     padding: 15px 51px 14px 39px;
+    margin: 0 auto 95px auto;
+}
+
+.product-browse:hover {
+    color: #fff;
+    background-color: #F26376;
+}
+.product-browse:active {
+    color: #F26376;
+    background-color: #fff;
 }
 /* ======= END product ======= */
+
+
+/* ======= advantages ======= */
+
+.advantages {
+    background-color: #222224;
+}
+
+.advantages-wrp {
+
+}
+
+.advantages-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.advantages-list-item {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 104px 0 104px 0;
+}
+
+.advantages-list-item__svg {
+    margin: 0 0 28px 0;
+}
+
+.advantages-list-item__svg1 {
+    margin: 0 0 19px 0;
+}
+
+.advantages-list-item__svg2 {
+    margin: 0 0 25px 0;
+}
+
+
+.advantages-list-item-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin: 0 0 16px 0;
+}
+
+.advantages-list-item-txt {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;    
+    color: #FBFBFB;
+    
+}
+
+/* ======= END advantages ======= */
+
+
+/* ======= subscribe ======= */
+
+.subscribe {
+    height: 448px;
+}
+
+.subscribe-background {
+    background-image: url("../img/background_subscribe.jpg");
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 104px 0 0 0;
+}
+
+.subscribe-wrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 223px;
+}
+
+
+.subscribe-feedback {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.subscribe-feedback-img {
+
+}
+
+.subscribe-feedback-img img {
+    height: 96px;
+}
+
+.subscribe-feedback-txt {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe-feedback-txt span {
+    font-style: italic;
+}
+
+.subscribe-email {
+    display: flex;
+    max-width: 557px;
+    width: 100%;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.subscribe-email-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe-email-title span {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.subscribe-email-form {
+    display: flex;
+    max-width: 356px;
+    width: 100%;
+    min-height: 49px; 
+    justify-content: center;
+    margin: 0 auto;
+}
+.subscribe-email-input {
+    display: block;
+    max-width: 322px;
+    width: 100%;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding: 7px 0 6px 22px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #E1E1E1;
+    color: #222224;
+    opacity: 0.67;
+    outline: none;
+
+}
+
+.subscribe-email-input::placeholder {
+    background: #E1E1E1;
+}
+
+.subscribe-email-input:focus {
+    cursor: pointer;
+}
+
+.subscribe-email-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    box-sizing: border-box;
+    max-width: 100px;
+    width: 100%;
+    padding: 7px 20px 6px 21px;
+    background-color: #E05C6E;
+    color: #fff;
+}
+
+.subscribe-email-btn:hover {
+    color: #E05C6E;
+    background-color: #fff;
+
+}
+
+.subscribe-email-btn:active {
+    background-color: #E05C6E;
+    color: #fff;
+}
+
+/* ======= END subscribe ======= */
+
+
+
+/* ======= footer ======= */
+
+.footer {
+    padding: 24px 0 23px 0;
+    background-color: #222224;
+}
+
+.footer-wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right {
+    max-width: 332px;
+    width: 100%;
+}
+
+.footer-right-txt {
+    color: #FBFBFB;
+}
+
+.footer-list {
+    max-width: 147px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 7.2px;
+    align-content: center;
+}
+
+
+/* ======= END footer ======= */
+
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
     .center {
@@ -388,12 +646,12 @@ margin: 0 auto 96px auto;
     .offer-list-item-img {
         max-width: 232px;
         width: 100%;
-        min-height: 167px;
+        height: 167px;
     }
     .offer-list-item-img__4 {
         max-width: 734px;
         width: 100%;
-        min-height: 116px;
+        height: 116px;
 
     }
     .product-list {
@@ -403,8 +661,45 @@ margin: 0 auto 96px auto;
     .product-browse {
         max-width: 214px;
         width: 100%;
+        margin: 0 auto 64px auto;
+    }
+    .advantages-wrp {
+        padding: 48px 0 64px 0;
+    }
+    .advantages-list {
+        flex-direction: column;
+        gap: 48px;
+    }
+    .advantages-list-item {
+        margin: 0;
+    }
+    .subscribe {
+        height: 614px;
+    }
+    
+    .subscribe-wrp {
+        gap: 48px;
+        flex-direction: column;
+    }
+
+    .subscribe-email {
+        gap: 27px;
+    }
+    .subscribe-background {
+        background-image: url("../img/background_subscribe-tablet.jpg");
+        padding: 64px 0 0 0;
+    }
+    .footer-right {
+        max-width: 251px;
+        width: 100%;
     }
 }
+
+
+
+
+
+
 
 @media (max-width: 767px) {
     .center {
@@ -477,6 +772,41 @@ margin: 0 auto 96px auto;
     .product-browse {
         max-width: 214px;
         width: 100%;
+        margin: 0 auto 95px auto;
     }
-    
+    .advantages-list {
+        gap: 46px;
+    }
+    .subscribe {
+        height: 550px;
+    }
+    .subscribe-wrp {
+        gap: 64px;
+    }
+    .subscribe-background {
+        background-image: url("../img/background_subscribe-phone.jpg");
+    }
+    .subscribe-feedback-img img {
+        height: 91px;
+        width: 91px;
+    }
+    .subscribe-email-title {
+        line-height: 37px;
+    }
+    .subscribe-email-title span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .subscribe-feedback-txt {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .subscribe-email-form {
+        max-width: 341px;
+        width: 100%;
+    } 
+    .footer-wrp {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
 }
