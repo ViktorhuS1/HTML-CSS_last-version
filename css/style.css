@@ -424,8 +424,6 @@ margin: 0 auto 96px auto;
 
 .product-list-item {
     position: relative;
-
-
 }
 
 .product-list-item:hover .product-list-item-btn {
@@ -460,8 +458,6 @@ margin: 0 auto 96px auto;
     top: 0;
     left: 0;
   }
-
-
 
 .product-list-item-img-wrp {
     position: relative;
@@ -648,9 +644,6 @@ margin: 0 auto 96px auto;
     gap: 30px;
 }
 
-.subscribe-feedback-img {
-
-}
 
 .subscribe-feedback-img img {
     height: 96px;
@@ -820,10 +813,6 @@ margin: 0 auto 96px auto;
 
 
 
-
-
-
-
 @media (max-width: 1024px) {
     .center {
         max-width: 736px;
@@ -928,9 +917,6 @@ margin: 0 auto 96px auto;
 
 
 
-
-
-
 @media (max-width: 767px) {
     .center {
         max-width: 343px;
@@ -980,7 +966,6 @@ margin: 0 auto 96px auto;
         max-width: 343px;
         width: 100%;
     }
-
 
     .offer-list-item-img {
         max-width: 343px;
